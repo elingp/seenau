@@ -52,7 +52,7 @@
                                 <li>
                                     <input
                                         type="text"
-                                        value="Nama Mata Kuliah"
+                                        placeholder="Nama Mata Kuliah"
                                         onblur="if(this.value == '') { this.value ='Course Name'; }"
                                         onfocus="if(this.value =='Course Name') { this.value = ''; }"
                                     />
