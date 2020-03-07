@@ -180,6 +180,14 @@
                         
                         >login</a
                     >
+                    <!--If Session Login
+                    <a
+                        href="/"
+                        class="wm-header-btn"
+                
+                        >Log Out</a
+                    >
+                    -->
                 </div>
             </div>
         </div>

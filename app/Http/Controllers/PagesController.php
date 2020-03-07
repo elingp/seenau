@@ -30,6 +30,6 @@ class PagesController extends Controller
     }
     public function login() {
         $title = 'Log In';
-        return view('pages.login')->with('title', $title);
+        return view('pages.login')->with('title', $title); 
     }
 }
