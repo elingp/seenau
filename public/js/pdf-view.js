@@ -1,4 +1,6 @@
-const url = '../docs/pdf.pdf';
+/*const url = '../docs/pdf.pdf';*/
+const file = document.getElementById('pdf-doc').value;
+const url = '../docs/' + file;
 
 let pdfDoc = null,
   pageNum = 1,
@@ -8,7 +10,7 @@ let pdfDoc = null,
 const scale = 1.0,
   canvas = document.querySelector('#pdf-render'),
   ctx = canvas.getContext('2d');
-
+ 
 // Render the page
 const renderPage = num => {
   pageIsRendering = true;

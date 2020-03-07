@@ -61,12 +61,13 @@
                         </div>
                         <ul>
                         <li><div class="wm-courses-started-preview">
+                        <input type="hidden" id="pdf-doc" value="pdf.pdf"></input> <!--Value dari back end-->
                         <span class="page-info">
                         Page <span id="page-num"></span> of <span id="page-count"></span>
                         </span>
                         </li>
                         <li>
-                        <canvas id="pdf-render"></canvas>
+                        <canvas id="pdf-render" ></canvas>
                         </li>
                         <li>
                         <button class="btn" id="prev-page">
