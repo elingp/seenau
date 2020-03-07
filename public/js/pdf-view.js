@@ -10,7 +10,7 @@ let pdfDoc = null,
 const scale = 1.0,
   canvas = document.querySelector('#pdf-render'),
   ctx = canvas.getContext('2d');
- 
+
 // Render the page
 const renderPage = num => {
   pageIsRendering = true;
@@ -88,6 +88,6 @@ pdfjsLib
     document.querySelector('.top-bar').style.display = 'none';
   });
 
-// Button Events
-document.querySelector('#prev-page').addEventListener('click', showPrevPage);
-document.querySelector('#next-page').addEventListener('click', showNextPage);
+// // Button Events
+// document.querySelector('#prev-page').addEventListener('click', showPrevPage);
+// document.querySelector('#next-page').addEventListener('click', showNextPage);
