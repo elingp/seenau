@@ -8,13 +8,13 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="wm-mini-title">
-                    <h1>Our Courses</h1>
+                    <h1>Logika Fuzzy</h1> <!--Judul Keminatan-->
                 </div>
                 <div class="wm-breadcrumb">
                     <ul>
                         <li><a href="index-2.html">Home</a></li>
-                        <li><a href="#">Courses</a></li>
-                        <li>Single Course</li>
+                        <li><a href="#">Komputasi Cerdas</a></li> <!--Judul Keminatan-->
+                        <li>Logika Fuzzy</li>                     <!--Judul Mata Kuliah-->
                     </ul>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                 <div class="col-md-12">
                     <div class="wm-courses-getting-started">
                         <div class="wm-title-full">
-                            <h2>Sistem Digital</h2>
+                            <h2>Logika Fuzzy</h2> <!--Judul Mata Kuliah-->
                         </div>
                         <div class="wm-courses-started">
                             <span>Materi</span>
@@ -67,7 +67,7 @@
                                     <div class="wm-courses-started-text">
                                         <h6>
                                             <a href="#"
-                                                >Archaeology and Anthropology</a
+                                                >1.1 Introduction To Fuzzy</a
                                             >
                                         </h6>
                                         <span
@@ -79,15 +79,7 @@
                                                 >16/05/2016 - 17/06/2016</time
                                             ></span
                                         >
-                                        <span
-                                            ><a
-                                                href="#"
-                                                class=" wmicon-folder"
-                                            ></a
-                                            ><time datetime="2017-02-14"
-                                                >Duration: 1hr30mins</time
-                                            ></span
-                                        >
+                                        
                                     </div>
                                     <div class="wm-courses-preview">
                                         <a href="#">Preview</a>
@@ -98,8 +90,7 @@
                                     <div class="wm-courses-started-text">
                                         <h6>
                                             <a href="#"
-                                                >Classics and Oriental
-                                                Studies</a
+                                                >2. Fuzzy Set</a
                                             >
                                         </h6>
                                         <span
@@ -111,15 +102,7 @@
                                                 >13/05/2016 - 10/06/2016</time
                                             ></span
                                         >
-                                        <span
-                                            ><a
-                                                href="#"
-                                                class=" wmicon-folder"
-                                            ></a
-                                            ><time datetime="2017-02-14"
-                                                >Duration: 2hr30mins</time
-                                            ></span
-                                        >
+                                        
                                     </div>
                                     <div class="wm-courses-preview">
                                         <a href="#">Preview</a>
@@ -130,8 +113,7 @@
                                     <div class="wm-courses-started-text">
                                         <h6>
                                             <a href="#"
-                                                >Psychology, Philosophy and
-                                                Linguistics</a
+                                                >3. Fuzzy Set Operation</a
                                             >
                                         </h6>
                                         <span
@@ -143,15 +125,7 @@
                                                 >11/05/2016 - 11/06/2016</time
                                             ></span
                                         >
-                                        <span
-                                            ><a
-                                                href="#"
-                                                class=" wmicon-folder"
-                                            ></a
-                                            ><time datetime="2017-02-14"
-                                                >Duration: 1hr00mins</time
-                                            ></span
-                                        >
+                                        
                                     </div>
                                     <div class="wm-courses-preview">
                                         <a href="#">Preview</a>
@@ -161,7 +135,7 @@
                                     <a href="#" class="wmicon-interface"></a>
                                     <div class="wm-courses-started-text">
                                         <h6>
-                                            <a href="#">Test: Human Sciences</a>
+                                            <a href="#">4. Fuzzy Relation & Composition</a>
                                         </h6>
                                         <span
                                             ><a
@@ -170,15 +144,6 @@
                                             ></a
                                             ><time datetime="2017-02-14"
                                                 >9/05/2016 - 15/06/2016</time
-                                            ></span
-                                        >
-                                        <span
-                                            ><a
-                                                href="#"
-                                                class=" wmicon-folder"
-                                            ></a
-                                            ><time datetime="2017-02-14"
-                                                >Duration: 2hr15mins</time
                                             ></span
                                         >
                                     </div>
@@ -196,8 +161,7 @@
                                     <div class="wm-courses-started-text">
                                         <h6>
                                             <a href="#"
-                                                >Philosophy, Politics and
-                                                Economics (PPE)</a
+                                                >Ujian Tengah Semester (UTS))</a
                                             >
                                         </h6>
                                         <span
@@ -209,15 +173,7 @@
                                                 >16/05/2016 - 15/06/2016</time
                                             ></span
                                         >
-                                        <span
-                                            ><a
-                                                href="#"
-                                                class=" wmicon-folder"
-                                            ></a
-                                            ><time datetime="2017-02-14"
-                                                >Duration: 1hr30mins</time
-                                            ></span
-                                        >
+                                        
                                     </div>
                                     <div class="wm-courses-preview">
                                         <a href="#">Preview</a>
@@ -228,8 +184,7 @@
                                     <div class="wm-courses-started-text">
                                         <h6>
                                             <a href="#"
-                                                >Modern Languages and
-                                                Linguistics</a
+                                                >Ujian Akhir Semester (UAS)</a
                                             >
                                         </h6>
                                         <span
@@ -241,84 +196,13 @@
                                                 >13/05/2016 - 10/06/2016</time
                                             ></span
                                         >
-                                        <span
-                                            ><a
-                                                href="#"
-                                                class=" wmicon-folder"
-                                            ></a
-                                            ><time datetime="2017-02-14"
-                                                >Duration: 2hr30mins</time
-                                            ></span
-                                        >
+                                        
                                     </div>
                                     <div class="wm-courses-preview">
                                         <a href="#">Preview</a>
                                     </div>
                                 </li>
-                                <li>
-                                    <a href="#" class="wmicon-pen"></a>
-                                    <div class="wm-courses-started-text">
-                                        <h6>
-                                            <a href="#"
-                                                >Biochemistry (Molecular and
-                                                Cellular)</a
-                                            >
-                                        </h6>
-                                        <span
-                                            ><a
-                                                href="#"
-                                                class="wmicon-time2"
-                                            ></a
-                                            ><time datetime="2017-02-14"
-                                                >11/05/2016 - 11/06/2016</time
-                                            ></span
-                                        >
-                                        <span
-                                            ><a
-                                                href="#"
-                                                class=" wmicon-folder"
-                                            ></a
-                                            ><time datetime="2017-02-14"
-                                                >Duration: 1hr00mins</time
-                                            ></span
-                                        >
-                                    </div>
-                                    <div class="wm-courses-preview">
-                                        <a href="#">Preview</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a href="#" class=" wmicon-pen"></a>
-                                    <div class="wm-courses-started-text">
-                                        <h6>
-                                            <a href="#"
-                                                >Computer Science and
-                                                Philosophy</a
-                                            >
-                                        </h6>
-                                        <span
-                                            ><a
-                                                href="#"
-                                                class="wmicon-time2"
-                                            ></a
-                                            ><time datetime="2017-02-14"
-                                                >19/05/2016 - 15/06/2016</time
-                                            ></span
-                                        >
-                                        <span
-                                            ><a
-                                                href="#"
-                                                class=" wmicon-folder"
-                                            ></a
-                                            ><time datetime="2017-02-14"
-                                                >Duration: 2hr15mins</time
-                                            ></span
-                                        >
-                                    </div>
-                                    <div class="wm-courses-preview">
-                                        <a href="#">Preview</a>
-                                    </div>
-                                </li>
+                               
                             </ul>
                         </div>
                     </div>
