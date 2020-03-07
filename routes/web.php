@@ -26,3 +26,5 @@ Route::get('/signup', 'PagesController@signup');
 Route::get('/login', 'PagesController@login');
 
 Route::get('/login-admin', 'PagesController@loginAdmin');
+
+Route::get('/preview', 'PagesController@preview');

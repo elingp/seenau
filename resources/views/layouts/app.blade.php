@@ -38,6 +38,8 @@
         <!-- ModalSearch Box -->
         
         <!-- Scripts -->
+        <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+        <script type="text/javascript" src="{{ URL::asset('js/pdf-view.js') }}"></script>
         <script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script>
         <script type="text/javascript" src="{{ URL::asset('js/modernizr.js') }}"></script>
         <script type="text/javascript" src="{{ URL::asset('js/bootstrap.min.js') }}"></script>

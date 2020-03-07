@@ -82,7 +82,7 @@
                                         
                                     </div>
                                     <div class="wm-courses-preview">
-                                        <a href="#">Preview</a>
+                                        <a href="/preview">Preview</a>
                                     </div>
                                 </li>
                                 <li>
@@ -105,7 +105,7 @@
                                         
                                     </div>
                                     <div class="wm-courses-preview">
-                                        <a href="#">Preview</a>
+                                        <a href="/preview">Preview</a>
                                     </div>
                                 </li>
                                 <li>
@@ -128,7 +128,7 @@
                                         
                                     </div>
                                     <div class="wm-courses-preview">
-                                        <a href="#">Preview</a>
+                                        <a href="/preview">Preview</a>
                                     </div>
                                 </li>
                                 <li>
