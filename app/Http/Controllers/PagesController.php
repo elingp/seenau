@@ -20,4 +20,16 @@ class PagesController extends Controller
         $title = 'Upload';
         return view('pages.upload')->with('title', $title);
     }
+    public function verification() {
+        $title = 'Verification';
+        return view('pages.verification')->with('title', $title);
+    }
+    public function signup() {
+        $title = 'Sign Up';
+        return view('pages.signup')->with('title', $title);
+    }
+    public function login() {
+        $title = 'Log In';
+        return view('pages.login')->with('title', $title);
+    }
 }
