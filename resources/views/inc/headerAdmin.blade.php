@@ -175,10 +175,9 @@
                     <!-- <a href="#" class="wm-header-btn">get started</a> -->
 
                     <a
-                        href="#"
+                        href="/login"
                         class="wm-header-btn"
-                        data-toggle="modal"
-                        data-target="#ModalLogin"
+                        
                         >login</a
                     >
                 </div>
