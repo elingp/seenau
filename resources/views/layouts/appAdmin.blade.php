@@ -31,10 +31,6 @@
         </div>
         <!--// Main Wrapper \\-->
 
-        <!-- ModalLogin Box -->
-        @include('inc.modal-login-box')
-        <!-- ModalLogin Box -->
-
         <!-- ModalSearch Box -->
         @include('inc.modal-search-box')
         <!-- ModalSearch Box -->

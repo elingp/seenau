@@ -596,6 +596,18 @@ address { font-style: italic; }
     padding-bottom: 0px;
 }
 .wm-mega-text p { margin-bottom: 30px; }
+
+.wm-header-btn-primary {
+    float: right;
+    padding: 13px 35px;
+    background-color: #222845;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #cfcfcf;
+    text-transform: uppercase;
+    margin-top: 37px;
+    margin-right: 10px;
+}
 .wm-header-btn {
     float: right;
     padding: 13px 35px;

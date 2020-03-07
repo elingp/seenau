@@ -177,7 +177,21 @@
                         href="/login"
                         class="wm-header-btn"
                 
-                        >login</a
+                        >Log In</a
+                    >
+                    <!--If Session Login
+                    <a
+                        href="/"
+                        class="wm-header-btn"
+                
+                        >Log Out</a
+                    >
+                    -->
+                    <a
+                        href="/signup"
+                        class="wm-header-btn-primary"
+                
+                        >Sign Up</a
                     >
                 </div>
             </div>
