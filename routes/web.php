@@ -21,10 +21,12 @@ Route::get('/upload', 'PagesController@upload');
 
 Route::get('/verification', 'PagesController@verification');
 
-Route::get('/signup', 'PagesController@signup');
+Route::get('/signup-deprecated', 'PagesController@signupDeprecated');
 
-Route::get('/login', 'PagesController@login');
-
-Route::get('/login-admin', 'PagesController@loginAdmin');
+Route::get('/login-deprecated', 'PagesController@loginDeprecated');
 
 Route::get('/preview', 'PagesController@preview');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');

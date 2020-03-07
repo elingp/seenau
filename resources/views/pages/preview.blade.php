@@ -30,29 +30,6 @@
         <div class="container">
             <div class="row">
                 <aside class="col-md-2">
-                    <!--<div class="widget widget_categories">
-								<div class="wm-widget-title">
-									<h2>Categories</h2>
-								</div>
-								<ul>
-									<li><a href="#">Chemistry</a></li>
-									<li><a href="#">Classical Archaeology </a></li>
-									<li><a href="#">Classics & English</a></li>
-									<li><a href="#">Materials Science</a></li>
-									<li><a href="#">Mathematics</a></li>
-									<li><a href="#">Physics & Philosophy</a></li>
-									<li><a href="#">Theology & Religion</a></li>
-									<li><a href="#">Law</a></li>
-                                    <li><a href="#">Chemistry</a></li>
-                                    <li><a href="#">Classical Archaeology </a></li>
-                                    <li><a href="#">Classics & English</a></li>
-                                    <li><a href="#">Materials Science</a></li>
-                                    <li><a href="#">Mathematics</a></li>
-                                    <li><a href="#">Physics & Philosophy</a></li>
-                                    <li><a href="#">Theology & Religion</a></li>
-                                    <li><a href="#">Law</a></li>
-								</ul>
-							</div>-->
                 </aside>
                 <div class="col-md-12">
                     <div class="wm-courses-getting-started">
@@ -91,4 +68,3 @@
 </div>
 <!--// Main Content \\-->
 @endsection
-

@@ -32,7 +32,6 @@
                             <ul class="nav navbar-nav">
                                 <li class="active"><a href="/">Home</a></li>
 
-                            
                                 <li class="wm-megamenu-li">
                                     <a href="#">Keminatan</a>
                                     <ul class="wm-megamenu">
@@ -40,10 +39,8 @@
                                             <div class="col-md-2">
                                                 <h4>Komputasi Cerdas</h4>
                                                 <ul class="wm-megalist">
-                                                    <li>
-                                                    </li>
-                                                    <li>
-                                                    </li>
+                                                    <li></li>
+                                                    <li></li>
                                                     <li>
                                                         <a href="/list"
                                                             >Logika Fuzzy
@@ -51,7 +48,8 @@
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Pengolahan Citra Digital
+                                                            >Pengolahan Citra
+                                                            Digital
                                                         </a>
                                                     </li>
                                                     <li>
@@ -81,7 +79,6 @@
                                                             >Keamanan Jaringan
                                                         </a>
                                                     </li>
-                                                    
                                                 </ul>
                                             </div>
                                             <div class="col-md-2">
@@ -106,17 +103,22 @@
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Pembuatan Konten 2D & 3D
+                                                            >Pembuatan Konten 2D
+                                                            & 3D
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Pengembangan Aplikasi Perangkat Bergerak
+                                                            >Pengembangan
+                                                            Aplikasi Perangkat
+                                                            Bergerak
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Pengembangan Aplikasi Perangkat Bergerak Lanjut
+                                                            >Pengembangan
+                                                            Aplikasi Perangkat
+                                                            Bergerak Lanjut
                                                         </a>
                                                     </li>
                                                     <li>
@@ -133,32 +135,39 @@
                                                 <ul class="wm-megalist">
                                                     <li>
                                                         <a href="/list"
-                                                            >Administrasi Basis Data
+                                                            >Administrasi Basis
+                                                            Data
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Arsitektur Aplikasi Enterprise
+                                                            >Arsitektur Aplikasi
+                                                            Enterprise
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Manajemen Konfigurasi Perangkat Lunak
+                                                            >Manajemen
+                                                            Konfigurasi
+                                                            Perangkat Lunak
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                        >Manajemen Proyek Perangkat Lunak
+                                                            >Manajemen Proyek
+                                                            Perangkat Lunak
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Pengujian Perangkat Lunak
+                                                            >Pengujian Perangkat
+                                                            Lunak
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Perancangan User Experience
+                                                            >Perancangan User
+                                                            Experience
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -166,33 +175,40 @@
                                         </li>
                                     </ul>
                                 </li>
+                                @if (!Auth::guest() && Auth::user()->is_admin)
                                 <li><a href="/upload">Upload</a></li>
+                                <li><a href="/verification">Verification</a></li>
+                                @elseif (!Auth::guest() && !Auth::user()->is_admin)
+                                <li><a href="/upload">Upload</a></li>
+                                @endif  
+                                {{-- @auth
+                                <li><a href="/upload">Upload</a></li>
+                                @endauth --}}
                             </ul>
                         </div>
                     </nav>
-                    <!--// Navigation \\-->
-                    <!-- <a href="#" class="wm-header-btn">get started</a> -->
+                    <!-- Authentication Links -->
+                    @guest
+                    <a class="wm-header-btn" href="{{ route('login') }}">{{ __('Login') }}</a>
+                    @if (Route::has('register'))
+                    <a class="wm-header-btn-primary" href="{{ route('register') }}">{{ __('Register') }}</a>
+                    @endif
+                    @else
+                    <a id="navbarDropdown" class="wm-header-btn-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                        {{ Auth::user()->name }} <span class="caret"></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="text-center dropdown-item" href="{{ route('logout') }}"
+                            onclick="event.preventDefault();
+                            document.getElementById('logout-form').submit();">
+                            {{ __('Logout') }}
+                        </a>
 
-                    <a
-                        href="/login"
-                        class="wm-header-btn"
-                
-                        >Log In</a
-                    >
-                    <!--If Session Login
-                    <a
-                        href="/"
-                        class="wm-header-btn"
-                
-                        >Log Out</a
-                    >
-                    -->
-                    <a
-                        href="/signup"
-                        class="wm-header-btn-primary"
-                
-                        >Sign Up</a
-                    >
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
+                    </div>
+                    @endguest
                 </div>
             </div>
         </div>

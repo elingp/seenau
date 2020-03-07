@@ -24,13 +24,13 @@ class PagesController extends Controller
         $title = 'Verification';
         return view('pages.verification')->with('title', $title);
     }
-    public function signup() {
+    public function signupDeprecated() {
         $title = 'Sign Up';
-        return view('pages.signup')->with('title', $title);
+        return view('pages.signup-deprecated')->with('title', $title);
     }
-    public function login() {
-        $title = 'Log In';
-        return view('pages.login')->with('title', $title); 
+    public function loginDeprecated() {
+        $title = 'Loginn';
+        return view('pages.login-deprecated')->with('title', $title); 
     }
     public function loginAdmin() {
         $title = 'Log In Admin';
