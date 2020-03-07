@@ -8,13 +8,16 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="wm-mini-title">
-                    <h1>Logika Fuzzy</h1> <!--Judul Keminatan-->
+                    <h1>Logika Fuzzy</h1>
+                    <!--Judul Keminatan-->
                 </div>
                 <div class="wm-breadcrumb">
                     <ul>
                         <li><a href="index-2.html">Home</a></li>
-                        <li><a href="#">Komputasi Cerdas</a></li> <!--Judul Keminatan-->
-                        <li>Logika Fuzzy</li>                     <!--Judul Mata Kuliah-->
+                        <li><a href="#">Komputasi Cerdas</a></li>
+                        <!--Judul Keminatan-->
+                        <li>Logika Fuzzy</li>
+                        <!--Judul Mata Kuliah-->
                     </ul>
                 </div>
             </div>
@@ -29,35 +32,12 @@
     <div class="wm-main-section">
         <div class="container">
             <div class="row">
-                <aside class="col-md-2">
-                    <!--<div class="widget widget_categories">
-								<div class="wm-widget-title">
-									<h2>Categories</h2>
-								</div>
-								<ul>
-									<li><a href="#">Chemistry</a></li>
-									<li><a href="#">Classical Archaeology </a></li>
-									<li><a href="#">Classics & English</a></li>
-									<li><a href="#">Materials Science</a></li>
-									<li><a href="#">Mathematics</a></li>
-									<li><a href="#">Physics & Philosophy</a></li>
-									<li><a href="#">Theology & Religion</a></li>
-									<li><a href="#">Law</a></li>
-                                    <li><a href="#">Chemistry</a></li>
-                                    <li><a href="#">Classical Archaeology </a></li>
-                                    <li><a href="#">Classics & English</a></li>
-                                    <li><a href="#">Materials Science</a></li>
-                                    <li><a href="#">Mathematics</a></li>
-                                    <li><a href="#">Physics & Philosophy</a></li>
-                                    <li><a href="#">Theology & Religion</a></li>
-                                    <li><a href="#">Law</a></li>
-								</ul>
-							</div>-->
-                </aside>
+                <aside class="col-md-2"></aside>
                 <div class="col-md-12">
                     <div class="wm-courses-getting-started">
                         <div class="wm-title-full">
-                            <h2>Logika Fuzzy</h2> <!--Judul Mata Kuliah-->
+                            <h2>Logika Fuzzy</h2>
+                            <!--Judul Mata Kuliah-->
                         </div>
                         <div class="wm-courses-started">
                             <span>Materi</span>
@@ -79,7 +59,6 @@
                                                 >16/05/2016 - 17/06/2016</time
                                             ></span
                                         >
-                                        
                                     </div>
                                     <div class="wm-courses-preview">
                                         <a href="/preview">Preview</a>
@@ -89,9 +68,7 @@
                                     <a href="#" class="wmicon-interface"></a>
                                     <div class="wm-courses-started-text">
                                         <h6>
-                                            <a href="#"
-                                                >2. Fuzzy Set</a
-                                            >
+                                            <a href="#">2. Fuzzy Set</a>
                                         </h6>
                                         <span
                                             ><a
@@ -102,7 +79,6 @@
                                                 >13/05/2016 - 10/06/2016</time
                                             ></span
                                         >
-                                        
                                     </div>
                                     <div class="wm-courses-preview">
                                         <a href="/preview">Preview</a>
@@ -125,7 +101,6 @@
                                                 >11/05/2016 - 11/06/2016</time
                                             ></span
                                         >
-                                        
                                     </div>
                                     <div class="wm-courses-preview">
                                         <a href="/preview">Preview</a>
@@ -135,7 +110,10 @@
                                     <a href="#" class="wmicon-interface"></a>
                                     <div class="wm-courses-started-text">
                                         <h6>
-                                            <a href="#">4. Fuzzy Relation & Composition</a>
+                                            <a href="#"
+                                                >4. Fuzzy Relation &
+                                                Composition</a
+                                            >
                                         </h6>
                                         <span
                                             ><a
@@ -173,7 +151,6 @@
                                                 >16/05/2016 - 15/06/2016</time
                                             ></span
                                         >
-                                        
                                     </div>
                                     <div class="wm-courses-preview">
                                         <a href="#">Preview</a>
@@ -196,13 +173,11 @@
                                                 >13/05/2016 - 10/06/2016</time
                                             ></span
                                         >
-                                        
                                     </div>
                                     <div class="wm-courses-preview">
                                         <a href="#">Preview</a>
                                     </div>
                                 </li>
-                               
                             </ul>
                         </div>
                     </div>

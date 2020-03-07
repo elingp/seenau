@@ -5,6 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <!-- CSRF Token -->
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>{{config('app.name', 'SEENAU')}}</title>
         <!-- Css Files -->
         <link rel="stylesheet" href="{{URL::asset('css/custom_upload.css')}}">
@@ -24,18 +26,22 @@
     <body>
         <!--// Main Wrapper \\-->
         <div class="wm-main-wrapper">
-            @include('inc.headerAdmin')
+            @include('inc.header')
             @yield('content')
             @include('inc.footer')
         <div class="clearfix"></div>
         </div>
         <!--// Main Wrapper \\-->
 
+        
+
         <!-- ModalSearch Box -->
         @include('inc.modal-search-box')
         <!-- ModalSearch Box -->
         
         <!-- Scripts -->
+        <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+        <script type="text/javascript" src="{{ URL::asset('js/pdf-view.js') }}"></script>
         <script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script>
         <script type="text/javascript" src="{{ URL::asset('js/modernizr.js') }}"></script>
         <script type="text/javascript" src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
