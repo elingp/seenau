@@ -30,29 +30,6 @@
         <div class="container">
             <div class="row">
                 <aside class="col-md-2">
-                    <!--<div class="widget widget_categories">
-								<div class="wm-widget-title">
-									<h2>Categories</h2>
-								</div>
-								<ul>
-									<li><a href="#">Chemistry</a></li>
-									<li><a href="#">Classical Archaeology </a></li>
-									<li><a href="#">Classics & English</a></li>
-									<li><a href="#">Materials Science</a></li>
-									<li><a href="#">Mathematics</a></li>
-									<li><a href="#">Physics & Philosophy</a></li>
-									<li><a href="#">Theology & Religion</a></li>
-									<li><a href="#">Law</a></li>
-                                    <li><a href="#">Chemistry</a></li>
-                                    <li><a href="#">Classical Archaeology </a></li>
-                                    <li><a href="#">Classics & English</a></li>
-                                    <li><a href="#">Materials Science</a></li>
-                                    <li><a href="#">Mathematics</a></li>
-                                    <li><a href="#">Physics & Philosophy</a></li>
-                                    <li><a href="#">Theology & Religion</a></li>
-                                    <li><a href="#">Law</a></li>
-								</ul>
-							</div>-->
                 </aside>
                 <div class="col-md-12">
                     <div class="wm-courses-getting-started">
@@ -61,24 +38,11 @@
                         </div>
                         <ul>
                         <li><div class="wm-courses-started-preview">
-                        <input type="hidden" id="pdf-doc" value="pdf.pdf"></input> <!--Value dari back end-->
-                        <span class="page-info">
-                        Page <span id="page-num"></span> of <span id="page-count"></span>
-                        </span>
-                        </li>
-                        <li>
-                        <canvas id="pdf-render" ></canvas>
-                        </li>
-                        <li>
-                        <button class="btn" id="prev-page">
-                        Prev Page
-                        </button>
-                        <button class="btn" id="next-page">
-                        Next Page
-                        </button>
-                        <div class="wm-courses-preview">
-                                        <a href="#">Download</a>
-                        </div>
+                    @foreach ($topics as $topic) 
+                    
+                     
+                     <embed src={{$topic->path}}  width="1100px" height="800px" />
+                     @endforeach
                         </li>
                         </ul>
                         
@@ -88,7 +52,7 @@
             </div>
         </div>
     </div>
-</div>
+
 <!--// Main Content \\-->
 @endsection
 
