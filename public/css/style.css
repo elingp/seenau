@@ -650,7 +650,8 @@ address { font-style: italic; }
     position: relative;
     margin-left: 66px;
 }
-.wm-search-section input[type="text"] {
+
+.wm-search-section input[type="password"] {
     float: left;
     width: 100%;
     background-color: transparent;
@@ -1319,7 +1320,8 @@ span.wm-blue-transparent {
     position: relative;
     margin-bottom: 7px;
 }
-.wm-search-course ul li input[type="text"] {
+.wm-search-course ul li input[type="text"], input[type="password"] {
+    width:100%;
     height: 43px;
     border-bottom: 2px solid #eaeaea;
     font-size: 15px;

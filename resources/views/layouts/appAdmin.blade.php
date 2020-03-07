@@ -24,7 +24,7 @@
     <body>
         <!--// Main Wrapper \\-->
         <div class="wm-main-wrapper">
-            @include('inc.header')
+            @include('inc.headerAdmin')
             @yield('content')
             @include('inc.footer')
         <div class="clearfix"></div>

@@ -31,7 +31,7 @@
                         </ul>
                     </form>
 
-                    <p>Not a member yet? <a href="#">Sign-up Now!</a></p>
+                    <p>Not a member yet? <a href="/signup">Sign-up Now!</a></p>
                 </div>
                 <div class="wm-modallogin-form wm-register-popup">
                     <span class="wm-color">create Your Account today</span>

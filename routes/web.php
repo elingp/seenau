@@ -18,3 +18,9 @@ Route::get('/', 'PagesController@index');
 Route::get('/list', 'PagesController@list');
 
 Route::get('/upload', 'PagesController@upload');
+
+Route::get('/verification', 'PagesController@verification');
+
+Route::get('/signup', 'PagesController@signup');
+
+Route::get('/login', 'PagesController@login');

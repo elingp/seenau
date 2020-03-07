@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <a href="/" class="wm-logo"
-                        ><img src="images/logo-1.png" alt=""
+                        ><img src="images/logo-1-admin.png" alt=""
                     /></a>
                 </div>
                 <div class="col-md-9">
@@ -32,7 +32,7 @@
                             <ul class="nav navbar-nav">
                                 <li class="active"><a href="/">Home</a></li>
 
-                            
+                                
                                 <li class="wm-megamenu-li">
                                     <a href="#">Keminatan</a>
                                     <ul class="wm-megamenu">
@@ -167,6 +167,7 @@
                                     </ul>
                                 </li>
                                 <li><a href="/upload">Upload</a></li>
+                                <li><a href="/verification">Verifikasi</a></li>
                             </ul>
                         </div>
                     </nav>
