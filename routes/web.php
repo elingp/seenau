@@ -24,3 +24,5 @@ Route::get('/verification', 'PagesController@verification');
 Route::get('/signup', 'PagesController@signup');
 
 Route::get('/login', 'PagesController@login');
+
+Route::get('/login-admin', 'PagesController@loginAdmin');

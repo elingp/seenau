@@ -32,4 +32,8 @@ class PagesController extends Controller
         $title = 'Log In';
         return view('pages.login')->with('title', $title); 
     }
+    public function loginAdmin() {
+        $title = 'Log In Admin';
+        return view('pages.loginAdmin')->with('title', $title); 
+    }
 }

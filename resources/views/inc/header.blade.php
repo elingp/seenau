@@ -41,28 +41,27 @@
                                                 <h4>Komputasi Cerdas</h4>
                                                 <ul class="wm-megalist">
                                                     <li>
+                                                    </li>
+                                                    <li>
+                                                    </li>
+                                                    <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
+                                                            >Logika Fuzzy
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
+                                                            >Pengolahan Citra Digital
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
+                                                            >Sistem Pakar
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="/list"
-                                                            >Nama Matkul
+                                                            >Text Minning
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -74,29 +73,15 @@
                                                 <ul class="wm-megalist">
                                                     <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
+                                                            >Jaringan Nirkabel
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
+                                                            >Keamanan Jaringan
                                                         </a>
                                                     </li>
-                                                    <li>
-                                                        <a href="/list"
-                                                            >Nama Matkul
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="/list"
-                                                            >Nama Matkul
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="/list"
-                                                            >Nama Matkul
-                                                        </a>
-                                                    </li>
+                                                    
                                                 </ul>
                                             </div>
                                             <div class="col-md-2">
@@ -106,27 +91,37 @@
                                                 <ul class="wm-megalist">
                                                     <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
+                                                            >DKAG
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
+                                                            >Game AI
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
+                                                            >Grafika Komputer
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
+                                                            >Pembuatan Konten 2D & 3D
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
+                                                            >Pengembangan Aplikasi Perangkat Bergerak
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/list"
+                                                            >Pengembangan Aplikasi Perangkat Bergerak Lanjut
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/list"
+                                                            >Perancangan Game
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -138,27 +133,32 @@
                                                 <ul class="wm-megalist">
                                                     <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
+                                                            >Administrasi Basis Data
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
+                                                            >Arsitektur Aplikasi Enterprise
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
+                                                            >Manajemen Konfigurasi Perangkat Lunak
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
+                                                        >Manajemen Proyek Perangkat Lunak
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="/list"
-                                                            >Nama Matkul
+                                                            >Pengujian Perangkat Lunak
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/list"
+                                                            >Perancangan User Experience
                                                         </a>
                                                     </li>
                                                 </ul>
