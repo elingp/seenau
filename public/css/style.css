@@ -6988,6 +6988,10 @@ aside .widget {
     float: left;
     width: 100%;
 }
+.wm-courses-started-preview{
+    float: inherit;
+    display: inline-block;
+}
 .wm-courses-getting-started                 {margin-bottom: 7px; }
 .wm-courses-started                         {margin-bottom: 24px; }
 .wm-courses-info ul li,.wm-certification-listing ul li {
