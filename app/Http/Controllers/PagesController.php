@@ -30,20 +30,18 @@ class PagesController extends Controller
         return view('pages.verification')->with('title', $title);
     }
 
-    public function signupDeprecated() {
+    public function signupDeprecated()
+    {
         $title = 'Sign Up';
         return view('pages.signup-deprecated')->with('title', $title);
     }
 
-    public function loginDeprecated() {
-        $title = 'Login';
-        return view('pages.login-deprecated')->with('title', $title); 
-    }
-    public function loginAdmin()
+    public function loginDeprecated()
     {
-        $title = 'Log In Admin';
-        return view('pages.loginAdmin')->with('title', $title);
+        $title = 'Login';
+        return view('pages.login-deprecated')->with('title', $title);
     }
+
     public function preview()
     {
         $title = 'Preview';

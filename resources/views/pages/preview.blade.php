@@ -8,13 +8,13 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="wm-mini-title">
-                    <h1>Logika Fuzzy</h1> <!--Judul Keminatan-->
+                    <h1>Nama Matkul</h1> <!--Judul Keminatan-->
                 </div>
                 <div class="wm-breadcrumb">
                     <ul>
                         <li><a href="index-2.html">Home</a></li>
-                        <li><a href="#">Komputasi Cerdas</a></li> <!--Judul Keminatan-->
-                        <li>Logika Fuzzy</li>                     <!--Judul Mata Kuliah-->
+                        <li><a href="#">Keminatan</a></li> <!--Judul Keminatan-->
+                        <li>Nama Matkul </li>                     <!--Judul Mata Kuliah-->
                     </ul>
                 </div>
             </div>
@@ -34,7 +34,7 @@
                 <div class="col-md-12">
                     <div class="wm-courses-getting-started">
                         <div class="wm-title-full">
-                            <h2>Logika Fuzzy</h2> <!--Judul Mata Kuliah-->
+                            <h2>Nama Matkul</h2> <!--Judul Mata Kuliah-->
                         </div>
                         <ul>
                         <li><div class="wm-courses-started-preview">

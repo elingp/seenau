@@ -8,15 +8,15 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="wm-mini-title">
-                    <h1>Logika Fuzzy</h1>
+                    <h1>Nama Matkul</h1>
                     <!--Judul Keminatan-->
                 </div>
                 <div class="wm-breadcrumb">
                     <ul>
                         <li><a href="index-2.html">Home</a></li>
-                        <li><a href="#">Komputasi Cerdas</a></li>
+                        <li><a href="#">Keminatan</a></li>
                         <!--Judul Keminatan-->
-                        <li>Logika Fuzzy</li>
+                        <li>Nama Matkul</li>
                         <!--Judul Mata Kuliah-->
                     </ul>
                 </div>
@@ -36,7 +36,7 @@
                 <div class="col-md-12">
                     <div class="wm-courses-getting-started">
                         <div class="wm-title-full">
-                            <h2>Logika Fuzzy</h2>
+                            <h2>Judul Materi</h2>
                             <!--Judul Mata Kuliah-->
                         </div>
                         <div class="wm-courses-started">
@@ -47,7 +47,7 @@
                                     <div class="wm-courses-started-text">
                                         <h6>
                                             <a href="#"
-                                                >1.1 Introduction To Fuzzy</a
+                                                >1.1 Judul Materi</a
                                             >
                                         </h6>
                                         <span
@@ -68,7 +68,7 @@
                                     <a href="#" class="wmicon-interface"></a>
                                     <div class="wm-courses-started-text">
                                         <h6>
-                                            <a href="#">2. Fuzzy Set</a>
+                                            <a href="#">2. Judul Materi</a>
                                         </h6>
                                         <span
                                             ><a
@@ -89,7 +89,7 @@
                                     <div class="wm-courses-started-text">
                                         <h6>
                                             <a href="#"
-                                                >3. Fuzzy Set Operation</a
+                                                >3. Judul Materi</a
                                             >
                                         </h6>
                                         <span
@@ -111,8 +111,7 @@
                                     <div class="wm-courses-started-text">
                                         <h6>
                                             <a href="#"
-                                                >4. Fuzzy Relation &
-                                                Composition</a
+                                                >4.Materi</a
                                             >
                                         </h6>
                                         <span
